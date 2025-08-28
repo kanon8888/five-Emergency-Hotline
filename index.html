@@ -26,7 +26,7 @@
 
     <div class="flex items-center gap-4 md:gap-8">
       <div class="flex items-center gap-2 bg-[#41ff6b1a] px-4 py-2 rounded-full">
-        <p class="font-bold">0</p>
+        <p id="count" class="font-bold">0</p>
         <img src="assets/heart.png" class="w-6 h-6 md:w-8 md:h-8" alt="">
       </div>
 
@@ -56,10 +56,341 @@
         </p>
     </div>
 </section>
-    
+
+
+<!-- <section class="border-2 border-green-400 py-3 p-4 px-4 bg-[#41ff6b1a] h-[1300px] w-full">
+<div class="justify-between flex "> --> 
+
+    <section class="border-2 border-green-400 py-3 px-4 bg-[#41ff6b1a] w-full h-auto">
+  <div class="flex flex-col lg:flex-row justify-between">
+    <!--lift side-->
+
+         <div class="abba grid grid-cols-1 md:grid-cols-3 gap-6 gap-y-4 w-full ">
+         <div class="child-div my-8 w-full h-[310px] border-2  border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/police.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+        <p class="font-normal my-2">Police</p>
+        <h1 class="text-2xl font-bold my-5">999</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+         <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/emergency.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">জাতীয় জরুরি সেবা</h1>
+        <p class="font-normal my-2">National Emergency</p>
+        <h1 class="text-2xl font-bold my-5">999</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">সার্বজনীন</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+         <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/fire-service.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">ফায়ার সার্ভিস</h1>
+        <p class="font-normal my-2">Fire Service</p>
+        <h1 class="text-2xl font-bold my-5">999</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">ফায়ার</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+    <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/ambulance.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">অ্যাম্বুলেন্স</h1>
+        <p class="font-normal my-2">Ambulance</p>
+        <h1 class="text-2xl font-bold my-5">1994-999999</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">স্বাস্থ্য</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+         <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/emergency.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">নারী ও শিশু সহায়তা</h1>
+        <p class="font-normal my-2">Women & Child Helpline</p>
+        <h1 class="text-2xl font-bold my-5">109</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">সহায়তা</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+         <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/emergency.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">দুদক</h1>
+        <p class="font-normal my-2">Anti-Corruption</p>
+        <h1 class="text-2xl font-bold my-5">106</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">সরকারি</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+    <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/emergency.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">বিদ্যুৎ বিভ্রাট</h1>
+        <p class="font-normal my-2">Electricity Outage</p>
+        <h1 class="text-2xl font-bold my-5">16216</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">বিদ্যুৎ</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+         <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/emergency.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">ব্র্যাক</h1>
+        <p class="font-normal my-2">Brac</p>
+        <h1 class="text-2xl font-bold my-5">16445</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">এনজিও</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+         <div class="child-div my-8 w-full h-[310px] border-2 border-gray-700 rounded-xl p-6 bg-white">
+        <div class="flex justify-between">
+          <img src="assets/emergency.png" class="w-8 h-8" alt="">
+          <img src="assets/Vector@2x.png" class="w-6 h-6 mt-1" alt="">
+        </div>
+        <h1 class="text-2xl font-bold my-2">বাংলাদেশ রেলওয়ে</h1>
+        <p class="font-normal my-2">Bangladesh Railway</p>
+        <h1 class="text-2xl font-bold my-5">163</h1>
+        <p class="font-normal bg-gray-200 my-2 rounded-full w-[75px] h-[25px] flex items-center justify-center">পরিবহন</p>
+        <div class="flex gap-4 my-6">
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] border-2 border-gray-500 text-gray-800 rounded-xl">
+            <img src="assets/Group.png" alt="copy" class="w-5 h-5">Copy
+          </button>
+          <button class="flex items-center justify-center gap-2 w-[182px] h-[40px] bg-[#00a63e] text-white rounded-xl">
+            <img src="assets/Vector (1).png" alt="call" class="w-5 h-5">Call
+          </button>
+        </div>
+    </div>
+
+    </div>
+      
+   <!--right-side-->
+       <div class="right-side border-2 border-amber-400 w-[350px] bg-white h-[1200px] my-7">
+        <div class="flex items-center gap-2 my-4">
+            <img src="assets/Group.png" class="w-[24px] h-[24px]" alt="">
+            <h1 class="font-normal">Call History</h1>
+            <button class="bg-[#00a63e] w-[114px] h-[52px] text-white font-normal rounded-full">Clear</button>
+        </div>
+
+       </div>
+</div>
+
+
+</section>
 
 
 
+
+
+
+
+<!-- <section class="prent border-2 py-3 px-4 border-red-500 bg-[#41ff6b1a] w-full h-[1140px]">
+    <div class="all-perend grid grid-cols-3 gap-6">
+
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+        <div class="w-[436.67px] h-[360px] border-2 border-gray-700 rounded-xl p-10 bg-[#ffffff]">
+            <div class="flex justify-between">
+                <img src="assets/police.png" class="w-[32px] h-[32px]" alt="">
+                <img src="assets/Vector@2x.png" class="w-[24px] h-[24px] mt-3" alt="">
+            </div>
+            <h1 class="text-2xl font-bold my-2">পুলিশ</h1>
+            <p class="font-normal my-2">Police</p>
+            <h1 class="text-2xl font-bold my-5">999</h1>
+            <p class="font-normal my-2 rounded-full bg-gray-200 w-[75px] h-[25px] flex items-center justify-center">পুলিশ</p>
+
+            <div class="flex gap-4 my-6">
+                <button class="flex items-center p-10 border-2 border-gray-500 gap-2 w-[182.33px] h-[40px] text-gray-800 px-4 py-2 rounded-xl"><img src="assets/Group.png" alt="" class="w-5 h-5">Copy</button>
+                <button class="flex items-center gap-2 w-[182.33px] h-[40px] text-center bg-green-500 text-white px-4 py-2 rounded-xl"><img src="assets/Vector (1).png" alt="" class="w-5 h-5">Coll</button>
+            </div>
+        </div>
+    </div>
+</section> -->
 
 
     <script src="./inddex.js"></script>
